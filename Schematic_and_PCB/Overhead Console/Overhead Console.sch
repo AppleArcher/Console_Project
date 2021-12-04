@@ -1,0 +1,560 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Raspberry_Pi_2_3 J?
+U 1 1 5E2CAA26
+P 2400 2250
+F 0 "J?" H 2400 3731 50  0000 C CNN
+F 1 "Raspberry_Pi_2_3" H 2400 3640 50  0000 C CNN
+F 2 "" H 2400 2250 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 2400 2250 50  0001 C CNN
+	1    2400 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Relay:FINDER-40.11-2016 K?
+U 1 1 5E5B95C4
+P 1400 5950
+F 0 "K?" H 1830 5996 50  0000 L CNN
+F 1 "FINDER-40.11-2016" H 1830 5905 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Finder_40.11" H 2540 5910 50  0001 C CNN
+F 3 "https://www.finder-relais.net/de/finder-relais-serie-40.pdf" H 1400 5950 50  0001 C CNN
+	1    1400 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Relay:FINDER-40.11-2016 K?
+U 1 1 5E5B9EE2
+P 2200 5950
+F 0 "K?" H 2630 5996 50  0000 L CNN
+F 1 "FINDER-40.11-2016" H 2630 5905 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Finder_40.11" H 3340 5910 50  0001 C CNN
+F 3 "https://www.finder-relais.net/de/finder-relais-serie-40.pdf" H 2200 5950 50  0001 C CNN
+	1    2200 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Relay:FINDER-40.11-2016 K?
+U 1 1 5E5BAAB1
+P 3050 5950
+F 0 "K?" H 3480 5996 50  0000 L CNN
+F 1 "FINDER-40.11-2016" H 3480 5905 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Finder_40.11" H 4190 5910 50  0001 C CNN
+F 3 "https://www.finder-relais.net/de/finder-relais-serie-40.pdf" H 3050 5950 50  0001 C CNN
+	1    3050 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Relay:FINDER-40.11 K?
+U 1 1 5E5BB69A
+P 5500 5950
+F 0 "K?" H 5930 5996 50  0000 L CNN
+F 1 "FINDER-40.11" H 5930 5905 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Finder_40.11" H 6640 5910 50  0001 C CNN
+F 3 "https://www.finder-relais.net/de/finder-relais-serie-40.pdf" H 5500 5950 50  0001 C CNN
+	1    5500 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Relay:FINDER-40.11 K?
+U 1 1 5E5BCA8B
+P 4700 5950
+F 0 "K?" H 5130 5996 50  0000 L CNN
+F 1 "FINDER-40.11" H 5130 5905 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Finder_40.11" H 5840 5910 50  0001 C CNN
+F 3 "https://www.finder-relais.net/de/finder-relais-serie-40.pdf" H 4700 5950 50  0001 C CNN
+	1    4700 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Relay:FINDER-40.11 K?
+U 1 1 5E5BE3C8
+P 3900 5950
+F 0 "K?" H 4330 5996 50  0000 L CNN
+F 1 "FINDER-40.11" H 4330 5905 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Finder_40.11" H 5040 5910 50  0001 C CNN
+F 3 "https://www.finder-relais.net/de/finder-relais-serie-40.pdf" H 3900 5950 50  0001 C CNN
+	1    3900 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Relay:FINDER-34.51 K?
+U 1 1 5E5BF077
+P 9450 1400
+F 0 "K?" H 9880 1446 50  0000 L CNN
+F 1 "FINDER-34.51" H 9880 1355 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Finder_34.51_Vertical" H 10590 1360 50  0001 C CNN
+F 3 "https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf" H 9450 1400 50  0001 C CNN
+	1    9450 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Relay:FINDER-34.51 K?
+U 1 1 5E5C077E
+P 9500 2350
+F 0 "K?" H 9930 2396 50  0000 L CNN
+F 1 "FINDER-34.51" H 9930 2305 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Finder_34.51_Vertical" H 10640 2310 50  0001 C CNN
+F 3 "https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf" H 9500 2350 50  0001 C CNN
+	1    9500 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Sensors:HTU21DSMD U?
+U 1 1 5E5B9F2D
+P 9850 5650
+F 0 "U?" H 9850 6015 50  0000 C CNN
+F 1 "HTU21DSMD" H 9850 5924 50  0000 C CNN
+F 2 "HTU21D" H 9880 5800 20  0001 C CNN
+F 3 "" H 9850 5650 50  0001 C CNN
+	1    9850 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L SparkFun-Sensors:HTU21DSMD U?
+U 1 1 5E5BA66A
+P 8700 5650
+F 0 "U?" H 8700 6015 50  0000 C CNN
+F 1 "HTU21DSMD" H 8700 5924 50  0000 C CNN
+F 2 "HTU21D" H 8730 5800 20  0001 C CNN
+F 3 "" H 8700 5650 50  0001 C CNN
+	1    8700 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L SparkFun-Sensors:HTU21DSMD U?
+U 1 1 5E5BAB18
+P 7450 5650
+F 0 "U?" H 7450 6015 50  0000 C CNN
+F 1 "HTU21DSMD" H 7450 5924 50  0000 C CNN
+F 2 "HTU21D" H 7480 5800 20  0001 C CNN
+F 3 "" H 7450 5650 50  0001 C CNN
+	1    7450 5650
+	-1   0    0    1   
+$EndComp
+$Comp
+L SparkFun-DiscreteSemi:TCMT1103-OPTO M?
+U 1 1 5E5BB3D9
+P 1450 4750
+F 0 "M?" V 1546 4522 50  0000 R CNN
+F 1 "TCMT1103-OPTO" V 1455 4522 50  0000 R CNN
+F 2 "SSOP-4" H 1480 4900 20  0001 C CNN
+F 3 "" H 1450 4750 50  0001 C CNN
+	1    1450 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SparkFun-DiscreteSemi:TCMT1103-OPTO M?
+U 1 1 5E5BE57A
+P 2200 4750
+F 0 "M?" V 2296 4522 50  0000 R CNN
+F 1 "TCMT1103-OPTO" V 2205 4522 50  0000 R CNN
+F 2 "SSOP-4" H 2230 4900 20  0001 C CNN
+F 3 "" H 2200 4750 50  0001 C CNN
+	1    2200 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SparkFun-DiscreteSemi:TCMT1103-OPTO M?
+U 1 1 5E5BF984
+P 3050 4750
+F 0 "M?" V 3146 4522 50  0000 R CNN
+F 1 "TCMT1103-OPTO" V 3055 4522 50  0000 R CNN
+F 2 "SSOP-4" H 3080 4900 20  0001 C CNN
+F 3 "" H 3050 4750 50  0001 C CNN
+	1    3050 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SparkFun-DiscreteSemi:TCMT1103-OPTO M?
+U 1 1 5E5C09FE
+P 3900 4750
+F 0 "M?" V 3996 4522 50  0000 R CNN
+F 1 "TCMT1103-OPTO" V 3905 4522 50  0000 R CNN
+F 2 "SSOP-4" H 3930 4900 20  0001 C CNN
+F 3 "" H 3900 4750 50  0001 C CNN
+	1    3900 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SparkFun-DiscreteSemi:TCMT1103-OPTO M?
+U 1 1 5E5C22A3
+P 4700 4750
+F 0 "M?" V 4796 4522 50  0000 R CNN
+F 1 "TCMT1103-OPTO" V 4705 4522 50  0000 R CNN
+F 2 "SSOP-4" H 4730 4900 20  0001 C CNN
+F 3 "" H 4700 4750 50  0001 C CNN
+	1    4700 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SparkFun-DiscreteSemi:TCMT1103-OPTO M?
+U 1 1 5E5C31F4
+P 5500 4750
+F 0 "M?" V 5596 4522 50  0000 R CNN
+F 1 "TCMT1103-OPTO" V 5505 4522 50  0000 R CNN
+F 2 "SSOP-4" H 5530 4900 20  0001 C CNN
+F 3 "" H 5500 4750 50  0001 C CNN
+	1    5500 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SparkFun-DiscreteSemi:TCMT1103-OPTO M?
+U 1 1 5E5C4547
+P 8400 1400
+F 0 "M?" H 8450 1035 50  0000 C CNN
+F 1 "TCMT1103-OPTO" H 8450 1126 50  0000 C CNN
+F 2 "SSOP-4" H 8430 1550 20  0001 C CNN
+F 3 "" H 8400 1400 50  0001 C CNN
+	1    8400 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L SparkFun-DiscreteSemi:TCMT1103-OPTO M?
+U 1 1 5E5C7C58
+P 8400 2300
+F 0 "M?" H 8450 1935 50  0000 C CNN
+F 1 "TCMT1103-OPTO" H 8450 2026 50  0000 C CNN
+F 2 "SSOP-4" H 8430 2450 20  0001 C CNN
+F 3 "" H 8400 2300 50  0001 C CNN
+	1    8400 2300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Interface_Expansion:TCA9548APWR U?
+U 1 1 5E5BE223
+P 8850 3750
+F 0 "U?" V 8804 4694 50  0000 L CNN
+F 1 "TCA9548APWR" V 8895 4694 50  0000 L CNN
+F 2 "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm" H 8850 2750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tca9548a.pdf" H 8900 4000 50  0001 C CNN
+	1    8850 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L SparkFun-DigitalIC:TSL2561FN U?
+U 1 1 5E5C385A
+P 6150 1150
+F 0 "U?" H 6150 1615 50  0000 C CNN
+F 1 "TSL2561FN" H 6150 1524 50  0000 C CNN
+F 2 "FN-6" H 6180 1300 20  0001 C CNN
+F 3 "" H 6150 1150 50  0001 C CNN
+	1    6150 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J?
+U 1 1 5E5CA542
+P 1350 7500
+F 0 "J?" V 1222 7680 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" V 1313 7680 50  0000 L CNN
+F 2 "" H 1350 7500 50  0001 C CNN
+F 3 "~" H 1350 7500 50  0001 C CNN
+	1    1350 7500
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J?
+U 1 1 5E5CC505
+P 2300 7450
+F 0 "J?" V 2172 7630 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" V 2263 7630 50  0000 L CNN
+F 2 "" H 2300 7450 50  0001 C CNN
+F 3 "~" H 2300 7450 50  0001 C CNN
+	1    2300 7450
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J?
+U 1 1 5E5CCC56
+P 3050 7450
+F 0 "J?" V 2922 7630 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" V 3013 7630 50  0000 L CNN
+F 2 "" H 3050 7450 50  0001 C CNN
+F 3 "~" H 3050 7450 50  0001 C CNN
+	1    3050 7450
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J?
+U 1 1 5E5CD81D
+P 3900 7450
+F 0 "J?" V 3772 7630 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" V 3863 7630 50  0000 L CNN
+F 2 "" H 3900 7450 50  0001 C CNN
+F 3 "~" H 3900 7450 50  0001 C CNN
+	1    3900 7450
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J?
+U 1 1 5E5CE06D
+P 4700 7450
+F 0 "J?" V 4572 7630 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" V 4663 7630 50  0000 L CNN
+F 2 "" H 4700 7450 50  0001 C CNN
+F 3 "~" H 4700 7450 50  0001 C CNN
+	1    4700 7450
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J?
+U 1 1 5E5CE72A
+P 5450 7450
+F 0 "J?" V 5322 7630 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" V 5413 7630 50  0000 L CNN
+F 2 "" H 5450 7450 50  0001 C CNN
+F 3 "~" H 5450 7450 50  0001 C CNN
+	1    5450 7450
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J?
+U 1 1 5E5CF104
+P 10750 2350
+F 0 "J?" H 10830 2392 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" H 10830 2301 50  0000 L CNN
+F 2 "" H 10750 2350 50  0001 C CNN
+F 3 "~" H 10750 2350 50  0001 C CNN
+	1    10750 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x03 J?
+U 1 1 5E5D09D8
+P 10750 1350
+F 0 "J?" H 10830 1392 50  0000 L CNN
+F 1 "Screw_Terminal_01x03" H 10830 1301 50  0000 L CNN
+F 2 "" H 10750 1350 50  0001 C CNN
+F 3 "~" H 10750 1350 50  0001 C CNN
+	1    10750 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J?
+U 1 1 5E5D19C8
+P 7450 4900
+F 0 "J?" V 7296 5048 50  0000 L CNN
+F 1 "Conn_01x04_Female" V 7387 5048 50  0000 L CNN
+F 2 "" H 7450 4900 50  0001 C CNN
+F 3 "~" H 7450 4900 50  0001 C CNN
+	1    7450 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J?
+U 1 1 5E5D43F9
+P 8700 4900
+F 0 "J?" V 8546 5048 50  0000 L CNN
+F 1 "Conn_01x04_Female" V 8637 5048 50  0000 L CNN
+F 2 "" H 8700 4900 50  0001 C CNN
+F 3 "~" H 8700 4900 50  0001 C CNN
+	1    8700 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Female J?
+U 1 1 5E5D5EA6
+P 9900 4900
+F 0 "J?" V 9746 5048 50  0000 L CNN
+F 1 "Conn_01x04_Female" V 9837 5048 50  0000 L CNN
+F 2 "" H 9900 4900 50  0001 C CNN
+F 3 "~" H 9900 4900 50  0001 C CNN
+	1    9900 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 5E5D8265
+P 7450 4900
+F 0 "J?" V 7512 5044 50  0000 L CNN
+F 1 "Conn_01x04_Male" V 7603 5044 50  0000 L CNN
+F 2 "" H 7450 4900 50  0001 C CNN
+F 3 "~" H 7450 4900 50  0001 C CNN
+	1    7450 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 5E5D8F0E
+P 8700 4900
+F 0 "J?" V 8762 5044 50  0000 L CNN
+F 1 "Conn_01x04_Male" V 8853 5044 50  0000 L CNN
+F 2 "" H 8700 4900 50  0001 C CNN
+F 3 "~" H 8700 4900 50  0001 C CNN
+	1    8700 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J?
+U 1 1 5E5D979A
+P 9900 4900
+F 0 "J?" V 9962 5044 50  0000 L CNN
+F 1 "Conn_01x04_Male" V 10053 5044 50  0000 L CNN
+F 2 "" H 9900 4900 50  0001 C CNN
+F 3 "~" H 9900 4900 50  0001 C CNN
+	1    9900 4900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10250 5650 10350 5650
+Wire Wire Line
+	10350 5650 10350 5300
+Wire Wire Line
+	10350 5300 9900 5300
+Wire Wire Line
+	9900 5300 9900 5100
+Wire Wire Line
+	10250 5750 10450 5750
+Wire Wire Line
+	10450 5750 10450 5200
+Wire Wire Line
+	10450 5200 10000 5200
+Wire Wire Line
+	10000 5200 10000 5100
+Wire Wire Line
+	9450 5650 9350 5650
+Wire Wire Line
+	9350 5650 9350 5350
+Wire Wire Line
+	9350 5350 9800 5350
+Wire Wire Line
+	9800 5350 9800 5100
+Wire Wire Line
+	9450 5750 9300 5750
+Wire Wire Line
+	9300 5750 9300 5300
+Wire Wire Line
+	9300 5300 9700 5300
+Wire Wire Line
+	9700 5300 9700 5100
+Wire Wire Line
+	9100 5650 9150 5650
+Wire Wire Line
+	9150 5650 9150 5350
+Wire Wire Line
+	9150 5350 8700 5350
+Wire Wire Line
+	8700 5350 8700 5100
+Wire Wire Line
+	9100 5750 9200 5750
+Wire Wire Line
+	9200 5750 9200 5300
+Wire Wire Line
+	9200 5300 8800 5300
+Wire Wire Line
+	8800 5300 8800 5100
+Wire Wire Line
+	8300 5650 8250 5650
+Wire Wire Line
+	8250 5650 8250 5350
+Wire Wire Line
+	8250 5350 8600 5350
+Wire Wire Line
+	8600 5350 8600 5100
+Wire Wire Line
+	8300 5750 8200 5750
+Wire Wire Line
+	8200 5750 8200 5300
+Wire Wire Line
+	8200 5300 8500 5300
+Wire Wire Line
+	8500 5300 8500 5100
+Wire Wire Line
+	7850 5650 7900 5650
+Wire Wire Line
+	7900 5650 7900 5400
+Wire Wire Line
+	7900 5400 7450 5400
+Wire Wire Line
+	7450 5400 7450 5100
+Wire Wire Line
+	7850 5750 7950 5750
+Wire Wire Line
+	7950 5750 7950 5350
+Wire Wire Line
+	7950 5350 7550 5350
+Wire Wire Line
+	7550 5350 7550 5100
+Wire Wire Line
+	7050 5650 7000 5650
+Wire Wire Line
+	7000 5650 7000 5400
+Wire Wire Line
+	7000 5400 7350 5400
+Wire Wire Line
+	7350 5400 7350 5100
+Wire Wire Line
+	7050 5750 6950 5750
+Wire Wire Line
+	6950 5750 6950 5350
+Wire Wire Line
+	6950 5350 7250 5350
+Wire Wire Line
+	7250 5350 7250 5100
+Wire Wire Line
+	9350 4150 9350 4500
+Wire Wire Line
+	9350 4500 9800 4500
+Wire Wire Line
+	9800 4500 9800 4700
+Wire Wire Line
+	9250 4150 9250 4600
+Wire Wire Line
+	9250 4600 9700 4600
+Wire Wire Line
+	9700 4600 9700 4700
+Wire Wire Line
+	9150 4150 9150 4450
+Wire Wire Line
+	9150 4450 8600 4450
+Wire Wire Line
+	8600 4450 8600 4700
+Wire Wire Line
+	8500 4700 8500 4350
+Wire Wire Line
+	8500 4350 9050 4350
+Wire Wire Line
+	9050 4350 9050 4150
+Wire Wire Line
+	8950 4150 8950 4300
+Wire Wire Line
+	8950 4300 7350 4300
+Wire Wire Line
+	7350 4300 7350 4700
+Wire Wire Line
+	8850 4150 8850 4250
+Wire Wire Line
+	8850 4250 7250 4250
+Wire Wire Line
+	7250 4250 7250 4700
+Wire Wire Line
+	9450 3350 9450 3250
+Wire Wire Line
+	9450 3250 3650 3250
+Wire Wire Line
+	3650 3250 3650 1750
+Wire Wire Line
+	3650 1750 3200 1750
+Wire Wire Line
+	3200 1650 3750 1650
+Wire Wire Line
+	3750 1650 3750 3150
+Wire Wire Line
+	3750 3150 9550 3150
+Wire Wire Line
+	9550 3150 9550 3350
+$EndSCHEMATC

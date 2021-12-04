@@ -1,0 +1,236 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Raspberry_Pi_2_3 J?
+U 1 1 5E2CAA26
+P 2400 2250
+F 0 "J?" H 2400 3731 50  0000 C CNN
+F 1 "Raspberry_Pi_2_3" H 2400 3640 50  0000 C CNN
+F 2 "" H 2400 2250 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 2400 2250 50  0001 C CNN
+	1    2400 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Relay:FINDER-40.11-2016 K?
+U 1 1 5E5B95C4
+P 1400 5950
+F 0 "K?" H 1830 5996 50  0000 L CNN
+F 1 "FINDER-40.11-2016" H 1830 5905 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Finder_40.11" H 2540 5910 50  0001 C CNN
+F 3 "https://www.finder-relais.net/de/finder-relais-serie-40.pdf" H 1400 5950 50  0001 C CNN
+	1    1400 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Relay:FINDER-40.11-2016 K?
+U 1 1 5E5B9EE2
+P 2200 5950
+F 0 "K?" H 2630 5996 50  0000 L CNN
+F 1 "FINDER-40.11-2016" H 2630 5905 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Finder_40.11" H 3340 5910 50  0001 C CNN
+F 3 "https://www.finder-relais.net/de/finder-relais-serie-40.pdf" H 2200 5950 50  0001 C CNN
+	1    2200 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Relay:FINDER-40.11-2016 K?
+U 1 1 5E5BAAB1
+P 3050 5950
+F 0 "K?" H 3480 5996 50  0000 L CNN
+F 1 "FINDER-40.11-2016" H 3480 5905 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Finder_40.11" H 4190 5910 50  0001 C CNN
+F 3 "https://www.finder-relais.net/de/finder-relais-serie-40.pdf" H 3050 5950 50  0001 C CNN
+	1    3050 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Relay:FINDER-40.11 K?
+U 1 1 5E5BB69A
+P 5500 5950
+F 0 "K?" H 5930 5996 50  0000 L CNN
+F 1 "FINDER-40.11" H 5930 5905 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Finder_40.11" H 6640 5910 50  0001 C CNN
+F 3 "https://www.finder-relais.net/de/finder-relais-serie-40.pdf" H 5500 5950 50  0001 C CNN
+	1    5500 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Relay:FINDER-40.11 K?
+U 1 1 5E5BCA8B
+P 4700 5950
+F 0 "K?" H 5130 5996 50  0000 L CNN
+F 1 "FINDER-40.11" H 5130 5905 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Finder_40.11" H 5840 5910 50  0001 C CNN
+F 3 "https://www.finder-relais.net/de/finder-relais-serie-40.pdf" H 4700 5950 50  0001 C CNN
+	1    4700 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Relay:FINDER-40.11 K?
+U 1 1 5E5BE3C8
+P 3900 5950
+F 0 "K?" H 4330 5996 50  0000 L CNN
+F 1 "FINDER-40.11" H 4330 5905 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Finder_40.11" H 5040 5910 50  0001 C CNN
+F 3 "https://www.finder-relais.net/de/finder-relais-serie-40.pdf" H 3900 5950 50  0001 C CNN
+	1    3900 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Relay:FINDER-34.51 K?
+U 1 1 5E5BF077
+P 9450 1400
+F 0 "K?" H 9880 1446 50  0000 L CNN
+F 1 "FINDER-34.51" H 9880 1355 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Finder_34.51_Vertical" H 10590 1360 50  0001 C CNN
+F 3 "https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf" H 9450 1400 50  0001 C CNN
+	1    9450 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Relay:FINDER-34.51 K?
+U 1 1 5E5C077E
+P 9500 2350
+F 0 "K?" H 9930 2396 50  0000 L CNN
+F 1 "FINDER-34.51" H 9930 2305 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_Finder_34.51_Vertical" H 10640 2310 50  0001 C CNN
+F 3 "https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf" H 9500 2350 50  0001 C CNN
+	1    9500 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Sensors:HTU21DSMD U?
+U 1 1 5E5B9F2D
+P 7450 1200
+F 0 "U?" H 7450 1565 50  0000 C CNN
+F 1 "HTU21DSMD" H 7450 1474 50  0000 C CNN
+F 2 "HTU21D" H 7480 1350 20  0001 C CNN
+F 3 "" H 7450 1200 50  0001 C CNN
+	1    7450 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Sensors:HTU21DSMD U?
+U 1 1 5E5BA66A
+P 7450 1950
+F 0 "U?" H 7450 2315 50  0000 C CNN
+F 1 "HTU21DSMD" H 7450 2224 50  0000 C CNN
+F 2 "HTU21D" H 7480 2100 20  0001 C CNN
+F 3 "" H 7450 1950 50  0001 C CNN
+	1    7450 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Sensors:HTU21DSMD U?
+U 1 1 5E5BAB18
+P 7450 2700
+F 0 "U?" H 7450 3065 50  0000 C CNN
+F 1 "HTU21DSMD" H 7450 2974 50  0000 C CNN
+F 2 "HTU21D" H 7480 2850 20  0001 C CNN
+F 3 "" H 7450 2700 50  0001 C CNN
+	1    7450 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-DiscreteSemi:TCMT1103-OPTO M?
+U 1 1 5E5BB3D9
+P 1450 4750
+F 0 "M?" V 1546 4522 50  0000 R CNN
+F 1 "TCMT1103-OPTO" V 1455 4522 50  0000 R CNN
+F 2 "SSOP-4" H 1480 4900 20  0001 C CNN
+F 3 "" H 1450 4750 50  0001 C CNN
+	1    1450 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SparkFun-DiscreteSemi:TCMT1103-OPTO M?
+U 1 1 5E5BE57A
+P 2200 4750
+F 0 "M?" V 2296 4522 50  0000 R CNN
+F 1 "TCMT1103-OPTO" V 2205 4522 50  0000 R CNN
+F 2 "SSOP-4" H 2230 4900 20  0001 C CNN
+F 3 "" H 2200 4750 50  0001 C CNN
+	1    2200 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SparkFun-DiscreteSemi:TCMT1103-OPTO M?
+U 1 1 5E5BF984
+P 3050 4750
+F 0 "M?" V 3146 4522 50  0000 R CNN
+F 1 "TCMT1103-OPTO" V 3055 4522 50  0000 R CNN
+F 2 "SSOP-4" H 3080 4900 20  0001 C CNN
+F 3 "" H 3050 4750 50  0001 C CNN
+	1    3050 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SparkFun-DiscreteSemi:TCMT1103-OPTO M?
+U 1 1 5E5C09FE
+P 3900 4750
+F 0 "M?" V 3996 4522 50  0000 R CNN
+F 1 "TCMT1103-OPTO" V 3905 4522 50  0000 R CNN
+F 2 "SSOP-4" H 3930 4900 20  0001 C CNN
+F 3 "" H 3900 4750 50  0001 C CNN
+	1    3900 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SparkFun-DiscreteSemi:TCMT1103-OPTO M?
+U 1 1 5E5C22A3
+P 4700 4750
+F 0 "M?" V 4796 4522 50  0000 R CNN
+F 1 "TCMT1103-OPTO" V 4705 4522 50  0000 R CNN
+F 2 "SSOP-4" H 4730 4900 20  0001 C CNN
+F 3 "" H 4700 4750 50  0001 C CNN
+	1    4700 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SparkFun-DiscreteSemi:TCMT1103-OPTO M?
+U 1 1 5E5C31F4
+P 5500 4750
+F 0 "M?" V 5596 4522 50  0000 R CNN
+F 1 "TCMT1103-OPTO" V 5505 4522 50  0000 R CNN
+F 2 "SSOP-4" H 5530 4900 20  0001 C CNN
+F 3 "" H 5500 4750 50  0001 C CNN
+	1    5500 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SparkFun-DiscreteSemi:TCMT1103-OPTO M?
+U 1 1 5E5C4547
+P 8400 1400
+F 0 "M?" H 8450 1035 50  0000 C CNN
+F 1 "TCMT1103-OPTO" H 8450 1126 50  0000 C CNN
+F 2 "SSOP-4" H 8430 1550 20  0001 C CNN
+F 3 "" H 8400 1400 50  0001 C CNN
+	1    8400 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L SparkFun-DiscreteSemi:TCMT1103-OPTO M?
+U 1 1 5E5C7C58
+P 8400 2300
+F 0 "M?" H 8450 1935 50  0000 C CNN
+F 1 "TCMT1103-OPTO" H 8450 2026 50  0000 C CNN
+F 2 "SSOP-4" H 8430 2450 20  0001 C CNN
+F 3 "" H 8400 2300 50  0001 C CNN
+	1    8400 2300
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC
