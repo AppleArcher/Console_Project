@@ -1,15 +1,14 @@
+import concurrent.futures
 import os
 import time
 from configparser import ConfigParser
-import concurrent.futures
+
 import RPi.GPIO as GPIO
-import LuxV2 as lux
-import EnviroV2 as enviro
-import NextionV2 as nextion
-import LightsV2 as lights
+import Sensor_Class as enviro
 
-
-from concurrent.futures import wait, ALL_COMPLETED, as_completed
+import Lights_v1 as lights
+import Lux_v1 as lux
+import Nextion_v1 as nextion
 
 config = ConfigParser()
 file = ('console_config.ini')
@@ -21,10 +20,10 @@ class Console:
         self.current_lux = float(config.get('Lux', 'lux'))
         self.current_threshold = int(config.get('Console', 'threshold'))
 
-        self.itemp = str(config.get('Environment', 'inside_temp'))
-        self.otemp = str(config.get('Environment', 'outside_temp'))
-        self.ihumid = str(config.get('Environment', 'inside_humidity'))
-        self.ohumid = str(config.get('Environment', 'outside_humidity'))
+        self.itemp = str(config.get('Environment', 'interior_temperature'))
+        self.otemp = str(config.get('Environment', 'exterior_temperature'))
+        self.ihumid = str(config.get('Environment', 'interior_humidity'))
+        self.ohumid = str(config.get('Environment', 'exterior_humidity'))
         self.threshold = str(config.get('Console', 'threshold'))
         self.hl_enabled = str(config.get('Console', 'auto_headlights_enabled'))
         self.headlights = str(config.get('Console', 'auto_headlights'))
@@ -222,8 +221,6 @@ def console_receive():
             nextion.command_data = []
     except KeyboardInterrupt:
         print('Quit')
-
-
     finally: pass
 
 def console_run():

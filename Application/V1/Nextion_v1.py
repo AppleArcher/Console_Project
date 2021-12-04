@@ -1,6 +1,7 @@
 import time
-import serial
 from configparser import ConfigParser
+
+import serial
 
 config = ConfigParser()
 config.read('console_config.ini')
@@ -56,7 +57,7 @@ def receive_data():
         print("Quit")
 
 
-def nextion_reset():
+def nextion_reset(self):
     r = 'rest'
     ser.write(str.encode(r, "utf-8"))
     end()

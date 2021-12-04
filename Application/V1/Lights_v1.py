@@ -1,6 +1,6 @@
-import RPi.GPIO as GPIO
 from configparser import ConfigParser
 
+import RPi.GPIO as GPIO
 
 config = ConfigParser()
 config.read('console_config.ini')

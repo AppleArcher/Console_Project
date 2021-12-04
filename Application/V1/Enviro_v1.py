@@ -1,15 +1,12 @@
-import time
-from configparser import ConfigParser
-from adafruit_htu21d import HTU21D
-import busio
-import board
-import adafruit_tca9548a
 import concurrent.futures
+import time
 from concurrent.futures import wait, ALL_COMPLETED
+from configparser import ConfigParser
 
-
-
-
+import adafruit_tca9548a
+import board
+import busio
+from adafruit_htu21d import HTU21D
 
 config = ConfigParser()
 config.read('console_config.ini')

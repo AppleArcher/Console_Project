@@ -1,9 +1,10 @@
 import time
 from configparser import ConfigParser
+
 import adafruit_tca9548a
 import adafruit_tsl2591
-import busio
 import board
+import busio
 
 config = ConfigParser()
 config.read('console_config.ini')
@@ -21,8 +22,7 @@ config.read('console_config.ini')
 m_lux = 0
 current_lux = ''
 
-# Get raw lux reading from sensor
-def read_sensor():
+s
     lux = round(float(lux_sensor.lux))
     return lux
 
